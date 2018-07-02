@@ -21,7 +21,7 @@ To be able to successfully build ControlBlockService you need to have certain AP
 ```bash
 sudo apt-get update
 sudo apt-get upgrade -y
-sudo apt-get install -y cmake g++-4.8 g++-4.9
+sudo apt-get install -y git cmake g++-4.9 doxygen 
 ```
 
 ## Building and Installation
