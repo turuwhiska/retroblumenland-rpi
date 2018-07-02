@@ -2,8 +2,12 @@ db9_gpio_rpi
 ==============
 db9_gpio_rpi is a driver (Linux kernel module) for DB9 joysticks and gamepads connected to Raspberry Pi's GPIO. See [wikipage](https://github.com/RetroPie/RetroPie-Setup/wiki/GPIO-Modules#db9_gpio_rpi) for further details.
 
+
 sudo apt-get install dkms
+
 sudo apt-get install dkms raspberrypi-kernel-headers
+
+sudo apt-get install --reinstall raspberrypi-bootloader raspberrypi-kernel
 
 
 Building dkms package on RPi
