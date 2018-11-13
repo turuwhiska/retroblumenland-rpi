@@ -1,7 +1,10 @@
+sudo nano src/controlblock/app/PowerSwitch.h
+
 PIN_RPI_STATUS = 8;
 PIN_RPI_SHUTDOWN = 12;
 
-
+ src/controlblock/gamepads/ArcadeGamepad.cpp
+ 
 #######pins 100,101,102,103--104,105,106,107---/////---108,109,110,111--115,114,112,113
 
 #######pins 107,106,105,104--103,102,101,100---/////---115,114,113,112--108,109,111,110
